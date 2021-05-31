@@ -1,0 +1,145 @@
+﻿@CHARSET "UTF-8";
+/*顶部 start*/
+.topNav{width:100%;line-height: 22px;height: 22px;background-color: #F5F5F5;border-bottom: solid 1px #D8D8D8;}
+.topNav_txt{padding: 0 10%;font-size: 12px;color: #333333;overflow: hidden;float: right;}
+.topNav_txt .topNav_txtLogin{color: #888888;}
+.topNav_txt .topNav_txtLogin:hover{color: #ff6b01;}
+.topNav_txt .topNav_txtWelcome{float: left;}
+.topNav_txt .topNav_txtName{margin-left:10px;color: #ff6b01;float: left;}
+
+.DingButd2_navBox{width: 80px;margin-left:5px;float:left;text-align: center;}
+.DingButd2_navBox_p{position: relative;cursor: pointer;}
+.DingButd2_navBox_p s{background: url(http://www.jqw.com/china/images/topicon_1207.png) no-repeat;background-position: -19px -1px;
+	width: 12px;height: 12px;position: absolute;margin-left: 5px;margin-top:2px;}
+.DingButd2_navBox_p1 s{background: url(http://www.jqw.com/china/images/topicon_1207.png) no-repeat;background-position: -37px -1px;
+	width: 12px;height: 12px;position: absolute;margin-left: 3px;margin-top: 6px;}
+.DingButd2_navBox_navDown{display: none;width: 80px;text-align: center;position: absolute;z-index: 99;border: 1px solid #B5B5B5;background-color: #fff;}
+.DingButd2_navBox_navDown p{line-height: 22px;}
+
+.topLogo{padding: 20px 20px;height: 60px;width: 1200px;margin: auto;}
+.topLogo_left{float: left;}
+.topLogo_leftTop{}
+.topLogo_leftTop_companyName{font-size: 24px;font-family: SimHei;color: #000000;float:left;}
+.topLogo_leftTop_codeBox{float:left;cursor: pointer;position: relative;}
+.topLogo_leftTop_code{width: 16px;height: 16px;margin:11px 10px 0 20px;background: url("../images2016/codeIcon.png") no-repeat;}
+.topLogo_leftTop_collect{width: 50px;height: 20px;line-height: 20px;margin-top:8px;padding-left:16px;font-size:12px;color:#ffffff;text-align: center;float:left;display:none;
+	background: url("../images2016/collectIcon.png") no-repeat 12px #ff6b01;cursor: pointer;
+-webkit-border-radius:12px;
+-moz-border-radius:12px;
+-ms-border-radius:12px;
+border-radius:12px;}
+.topLogo_leftBom{clear: both;font-size: 14px;padding-top: 10px;}
+.topLogo_right{background: url("../images2016/telIcon.png") 0px 10px no-repeat;font-size:33px;padding-left:50px;float: right;color: #ff6b01;line-height: 60px;}
+.code_showCode{padding:8px;position: absolute;top:30px;z-index:100;background-color:#ffffff;text-align:center;border:1px solid #cccccc;display: none;}
+.code_showCode img{width: 150px;height: 150px;}
+/*顶部 end*/
+/*底部样式*/
+.footer_html{ width:auto;min-width:980px; /*height:640px;*/ border-top:1px solid #dedede;    margin-top: 100px;}
+.footer_top{width:100%; height:358px; background:#fafafa; padding-bottom:20px;}
+.footer_top .footer_pic_new{ width:1200px; height:90px !important; border-bottom:1px solid #ededed; margin:0px auto; padding:30px 0;}
+.footer_top .footer_pic_new a{ display:block; float:left; margin:0 35px; width:225px; height:90px;cursor: default; }
+.public_footer_new dl{ width:300px; float:left; margin-top:20px;}
+.public_footer_new dl dt{ margin-bottom:20px; font-size:16px; color:#666666;}
+.public_footer_new dd{font-size:12px;}
+.public_footer_new dl dd div{ margin:10px 0;}
+.public_footer_new .foot_sm{ float:right; margin:20px;}
+.footer_top .public_footer_new{width:1200px; margin:0px auto; text-align:center;}
+.footer_down{width:100%; height:50px;font-size:12px;  /*height:262px;background:#242424;*/ background:#f5f5f5; color:#666666;}
+.footer_nav_box{ padding-top:10px;}
+.footer_nav_box p{ text-align:center; line-height:2.5em;}
+.footer_nav_box p a{ color:#FFF;}
+.footer_nav_box .footer_img{ margin:10px auto; text-align:center;} 
+
+@media screen and (max-width: 1199px) {  
+   .public_footer_new dl{ width:220px;}
+   .footer_top{width:100%;}
+   .footer_down{ width:100%;}
+   .footer_top .footer_pic_new a{width:180px;}
+   .footer_top .footer_pic_new{width:100%;}
+   .footer_top .public_footer_new{width:100%;}
+}
+/*工商图标*/
+.gsbs2017{text-align:center;}
+/* 产品列表修改 收藏 询价 模块 start */
+.rec_ul_three ul .ulone{position: relative;}
+.collect_inquiry{/*width: 310px;*/width:100%;height: 26px;line-height: 26px;position: absolute;bottom: 0px;left: 0px;background: #000;opacity: 0.7;color: #fff;display:none;}
+.collect_inquiry span {width: 49%;text-align: center;cursor:pointer;}
+.collect_inquiry span.collectItem{float: left;border-right: 1px solid #333;}
+.collect_inquiry span.inquiry{float: right;}
+/* 产品列表修改 收藏 询价 模块 end */
+/*详情页 start*/
+.proShow_collInqBox_zzc{width: 100%;height: 100%;background-color: #000;opacity: .5;filter: alpha(opacity=50);position: fixed;top:0;left: 0;z-index: 1;display: none;}
+.proShow_collInqBox{width:360px;overflow: hidden;position: fixed;top:45%;left:50%;z-index: 2;margin-left:-180px;margin-top:-109px;background-color: #FFF;display:none;
+box-shadow: 0px 2px 5px #ccc;
+-moz-box-shadow: 0px 2px 5px #ccc;
+-ms-box-shadow: 0px 2px 5px #ccc;
+-webkit-box-shadow: 0px 2px 5px #ccc;}
+.proShow_collInqBox .collInqBox_top{width:350px;height:30px;line-height:30px;padding:0 5px;background-color:#ececec;}
+.proShow_collInqBox .collInqBox_top span{float:left;}
+.proShow_collInqBox .collInqBox_top img{float:right;margin-top: 10px;cursor:pointer;}
+.collInqBox_uers,.collInqBox_success,.InqBox_pop{width:300px;margin:20px auto;display:none;}
+.proShow_uersBox{width: 300px;height: 30px;border: 1px solid #999999;margin-bottom:12px;}
+.proShow_uersBox label{width: 30px;height: 30px;line-height: 30px;float:left;text-align: center;border-right: 1px solid #999999;}
+.proShow_uersBox label img{margin-top:6px;}
+.proShow_uersBox input{height: 28px;height: 22px\9;line-height: 26px\9;width:250px;margin-left:10px;float:left;border:none;outline:none;}
+.proShow_uersBtn{width:180px;margin:auto;}
+#proShow_uersSubmit,#proShow_ensure{width:180px;height:32px;line-height:32px;font-size:14px;color:#fff;background-color:#ed710d;border:none;outline:none;cursor:pointer;}
+.proShow_uersForget{text-align:center;margin-top:12px;}
+.proShow_uersForget span{color:#ccc;margin:0 5px;}
+.proShow_uersForget a.proShow_freeReg{color:#ed710d;}
+.proShow_uersForget a.proShow_forgetPw{}
+.proShow_uersError,.InqBoxError{margin-bottom:15px;color:#f00;display:none;text-align:left;}
+
+.proShow_textarea{width: 300px;margin-bottom: 12px;}
+.proShow_textarea textarea{color: #999999;width: 100%;padding: 2%;}
+/*  收藏成功  */
+.collInqBox_successTxt{color:#666;font-size:16px;margin:40px 0 40px 0;text-align:center;}
+.collInqBox_successTimer{margin-top:10px;text-align:center;color:#666;}
+
+.proShow_uersBox1{height:30px;margin-bottom: 12px;}
+.proShow_uersBox1 label{width: 30px;height: 30px;line-height: 30px;float:left;text-align: center;border-right: 1px solid #999999;}
+.proShow_uersBox1 label img{margin-top:6px;}
+.proShow_uersBox1 .InqBox_concat input{height: 28px;height: 22px\9;line-height: 26px\9;width:125px;margin-left: 10px;border: none;outline: none;}
+.proShow_uersBox1 .InqBox_concat{width: 60%;float:left;border: 1px solid #999999; }
+.proShow_uersBox1 .InqBox_choose{width: 35%;float:left;line-height: 32px;padding-left: 10px;}
+.proShow_uersBox1 .InqBox_choose span{margin-left:9px;}
+.BarCode2019{margin-bottom:10px;}
+
+.proShow_name{text-align: center;}
+.proShow_name h3{font-size: 15px;}
+.proShow_name p{margin:10px 0;font-size: 14px;color: #ed710d;}
+.proShow_uersBtn input{w idth: 48%;width: 100%;height:32px;line-height:32px;font-size:14px;float:left;color:#fff;background-color:#ed710d;border:none;outline:none;cursor:pointer;}
+#InqBox_save{float: left;}
+#InqBox_reset{float: right;}
+.proShow_uersBtn{overflow: hidden;}
+#BarCodeText{width: 80px;height:30px;}
+/*  点击询价之后的弹出框  */
+/*详情页 end*/
+
+/*  顶部登陆  */
+.DingButd{float:left;}
+.DingButd2{w idth: 218px;float:right;}
+.DingButd2_name{float:left;font-weight:bold; w idth: 122px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+.DingButd2_span{float:left;margin-left:10px;color:#999;}
+.DingButd2_navBox{float:left;width: 80px;text-align: center;}
+.DingButd2_navBox_p{position: relative;cursor: pointer;}
+.DingButd2_navBox_p s{background: url(http://www.jqw.com/china/images/topicon_1207.png) no-repeat;background-position: -19px -1px;
+	width: 12px;height: 12px;position: absolute;margin-left: 5px;margin-top:2px;}
+.DingButd2_navBox_p1 s{background: url(http://www.jqw.com/china/images/topicon_1207.png) no-repeat;background-position: -37px -1px;
+	width: 12px;height: 12px;position: absolute;margin-left: 3px;margin-top: 6px;}
+.DingButd2_navBox_navDown{display: none;width: 80px;text-align: center;position: absolute;z-index: 99;border: 1px solid #B5B5B5;background-color: #fff;}
+.DingButd2_navBox_navDown p{line-height: 22px;}
+/*留言成功 start*/
+.guestbookSuccess{text-align: center;margin-top: 100px;}
+.guestbookSuccess_icon span{color:#4eb005;font-size: 26px;margin-left:20px;}
+.guestbookSuccess_text{font-size: 18px;margin-top: 20px;}
+.guestbookSuccess_text p{margin-bottom:20px;}
+/*留言成功 end*/
+.produce_keyword{font-weight:bold;font-size:14px;display:none;}
+
+.BMap_bubble_content .iw_poi_companyname{color:#ff6600;}
+
+.Information_main_contact{margin-bottom:15px;}
+.Information_main_contact table{width: 100%;padding: 2%;font-size: 14px;text-align: left;background-color: #f5f5f5;}
+.Information_main_contact table th{height: 40px;padding: 0 5px;color: #999999;font-weight: normal;}
+.Information_main_contact table td{height: 40px;padding: 0 5px;}
